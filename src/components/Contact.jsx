@@ -132,10 +132,10 @@ const Contact = ({ dark }) => {
             type="submit"
             title="send email"
             className={`${
-              dark ? "text-cyan-300" : "text-black"
-            } absolute bottom-2 right-3`}
+              dark ? "text-black bg-cyan-300 hover:bg-white" : "text-white hover:bg-gray-800  bg-black"
+            } rounded-full absolute bottom-2 right-2 p-1`}
           >
-            <IoIosSend size={28} />
+            <IoIosSend size={22} />
           </button>
         </form>
         <div className="flex flex-col max-w-sm w-full items-start justify-center gap-y-6">
