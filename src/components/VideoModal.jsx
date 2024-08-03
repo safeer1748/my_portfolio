@@ -43,7 +43,11 @@ const VideoModal = ({ toggleModal, handleToggleModal, workVideo, dark }) => {
           </div>
           {/* <!-- Modal body --> */}
           {workVideo === "legalEse" ? (
-            ''
+            <video
+            controls
+            src="/src/assets/legalEseVideo.mp4"
+            type="video/mp4"
+          ></video>
           ) : (
             ""
           )}
