@@ -48,7 +48,7 @@ const Home = ({ dark }) => {
           enhance my web development skills.
         </p>
         <div className="flex items-center gap-x-4 pt-5">
-          <a href="\assets\My Resume.pdf" download="Safeer Muhammad Resume">
+          <a href="\assets\My Resume.pdf" download="Resume">
           <button
             className={`rounded-full px-5 py-2 border font-semibold  text-center ${
               dark
