@@ -52,7 +52,7 @@ const Contact = ({ dark }) => {
       >
         Contact
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 w-full justify-items-center gap-y-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-items-center gap-8">
         <form
           onSubmit={handleSubmit}
           className={`relative ${
