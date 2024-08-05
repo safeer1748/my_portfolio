@@ -12,7 +12,7 @@ const Home = ({ dark }) => {
         className={`w-48 h-48 md:w-52 md:h-52 rounded-full object-cover border-8 ${
           dark ? "border-cyan-300" : "border-gray-600"
         }`}
-        src="/src/assets/mypic.jpg"
+        src="/assets/mypic.jpg"
         alt="my pic"
       />
       <div className="flex flex-col justify-center items-center gap-y-0.5 lg:gap-y-0 lg:items-start">

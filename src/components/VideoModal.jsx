@@ -45,7 +45,7 @@ const VideoModal = ({ toggleModal, handleToggleModal, workVideo, dark }) => {
           {workVideo === "legalEse" ? (
             <video
             controls
-            src="/src/assets/legalEseVideo.mp4"
+            src="/assets/legalEseVideo.mp4"
             type="video/mp4"
           ></video>
           ) : (
@@ -54,7 +54,7 @@ const VideoModal = ({ toggleModal, handleToggleModal, workVideo, dark }) => {
           {workVideo === "newsbay" ? (
             <video
               controls
-              src="/src/assets/newsbayVideo.mp4"
+              src="/assets/NewsbayVideo.mp4"
               type="video/mp4"
             ></video>
           ) : (
@@ -63,7 +63,7 @@ const VideoModal = ({ toggleModal, handleToggleModal, workVideo, dark }) => {
           {workVideo === "calculator" ? (
             <video
               controls
-              src="/src/assets/calculatorVideo.mp4"
+              src="/assets/calculatorVideo.mp4"
               type="video/mp4"
             ></video>
           ) : (
@@ -72,7 +72,7 @@ const VideoModal = ({ toggleModal, handleToggleModal, workVideo, dark }) => {
           {workVideo === "eduford" ? (
             <video
               controls
-              src="/src/assets/edufordVideo.mp4"
+              src="/assets/edufordVideo.mp4"
               type="video/mp4"
             ></video>
           ) : (

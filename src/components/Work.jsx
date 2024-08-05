@@ -31,7 +31,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/src/assets/legalese thumbnail.png"
+              src="/assets/legalese thumbnail.png"
               alt="legalEse thumbnail"
             />
             <div className="p-5">
@@ -82,7 +82,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/src/assets/newsbay thumbnail.png"
+              src="/assets/newsbay thumbnail.png"
               alt="newsbay thumbnail"
             />
             <div className="p-5">
@@ -132,7 +132,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/src/assets/calculator thumbnail.png"
+              src="/assets/calculator thumbnail.png"
               alt="calculator thumbnail"
             />
             <div className="p-5">
@@ -182,7 +182,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/src/assets/eduford thumbnail.png"
+              src="/assets/eduford thumbnail.png"
               alt="eduford thumbnail"
             />
             <div className="p-5">
