@@ -45,36 +45,29 @@ const VideoModal = ({ toggleModal, handleToggleModal, workVideo, dark }) => {
           {workVideo === "legalEse" ? (
             <video
             controls
-            src="/assets/legalEseVideo.mp4"
-            type="video/mp4"
-          ></video>
+          > <source src="/assets/legalEseVideo.mp4" type="video/mp4" /></video>
           ) : (
             ""
           )}
           {workVideo === "newsbay" ? (
             <video
               controls
-              src="/assets/NewsbayVideo.mp4"
-              type="video/mp4"
-            ></video>
+            ><source src="/assets/NewsbayVideo.mp4" type="video/mp4" /></video>
           ) : (
             ""
           )}
           {workVideo === "calculator" ? (
             <video
-              controls
-              src="/assets/calculatorVideo.mp4"
-              type="video/mp4"
-            ></video>
+              controls 
+            > <source src="/assets/calculatorVideo.mp4"  type="video/mp4" /></video>
           ) : (
             ""
           )}
           {workVideo === "eduford" ? (
             <video
               controls
-              src="/assets/edufordVideo.mp4"
-              type="video/mp4"
-            ></video>
+             
+            ><source  src="/assets/edufordVideo.mp4" type="video/mp4" /></video>
           ) : (
             ""
           )}
