@@ -7,7 +7,7 @@ import { HiHome } from "react-icons/hi";
 const BottomNavbar = ({ activeSection, dark }) => {
   return (
     <div
-      className={`fixed bottom-0 left-0 z-50 w-full h-20 ${
+      className={`fixed bottom-0 left-0 z-40 w-full h-20 ${
         dark ? "bg-gray-900" : "bg-white"
       } `}
     >

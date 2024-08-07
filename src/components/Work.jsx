@@ -31,7 +31,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/assets/legalese thumbnail.png"
+              src="/assets/legalEse/legalese thumbnail.png"
               alt="legalEse thumbnail"
             />
             <div className="p-5">

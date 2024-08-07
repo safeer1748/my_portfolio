@@ -182,9 +182,9 @@ const Skills = ({dark}) => {
               </div>
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-5 h-5`}>
               </div>
-              <div className={`${dark?'bg-cyan-300':'bg-black'} border rounded-full w-5 h-5`}>
+              <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-5 h-5`}>
               </div>
-              <div className={`${dark?'bg-cyan-300':'bg-black'} border rounded-full w-5 h-5`}>
+              <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-5 h-5`}>
               </div>
             </div>
         </div>
