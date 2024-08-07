@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import VideoModal from "./VideoModal";
+import DemoModal from "./DemoModal";
 
 const Work = ({ dark }) => {
   const [toggleModal, setToggleModal] = useState(false);
-  const [workVideo, setWorkVideo]=useState('')
+  const [workDemo, setworkDemo]=useState('')
   const handleToggleModal = (work) => {
-    setWorkVideo(work)
+    setworkDemo(work)
     setToggleModal(!toggleModal);
   };
   return (
@@ -71,7 +71,7 @@ const Work = ({ dark }) => {
                     : "text-white bg-black hover:bg-gray-600"
                 } cursor-pointer inline-flex ml-5 items-center px-3 py-2 text-sm font-medium text-center rounded-lg`}
               >
-                Video Demo
+                Image Demo
               </a>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/assets/newsbay thumbnail.png"
+              src="/assets/newsbay/newsbay thumbnail.png"
               alt="newsbay thumbnail"
             />
             <div className="p-5">
@@ -121,7 +121,7 @@ const Work = ({ dark }) => {
                     : "text-white bg-black hover:bg-gray-600"
                 } cursor-pointer inline-flex ml-5 items-center px-3 py-2 text-sm font-medium text-center rounded-lg`}
               >
-                Video Demo
+                Image Demo
               </a>
             </div>
           </div>
@@ -132,7 +132,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/assets/calculator thumbnail.png"
+              src="/assets/calculator/calculator thumbnail.png"
               alt="calculator thumbnail"
             />
             <div className="p-5">
@@ -171,7 +171,7 @@ const Work = ({ dark }) => {
                     : "text-white bg-black hover:bg-gray-600"
                 } cursor-pointer inline-flex ml-5 items-center px-3 py-2 text-sm font-medium text-center rounded-lg`}
               >
-                Video Demo
+                Image Demo
               </a>
             </div>
           </div>
@@ -182,7 +182,7 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/assets/eduford thumbnail.png"
+              src="/assets/eduford/eduford thumbnail.png"
               alt="eduford thumbnail"
             />
             <div className="p-5">
@@ -221,16 +221,16 @@ const Work = ({ dark }) => {
                     : "text-white bg-black hover:bg-gray-600"
                 } cursor-pointer inline-flex ml-5 items-center px-3 py-2 text-sm font-medium text-center rounded-lg`}
               >
-                Video Demo
+                Image Demo
               </a>
             </div>
           </div>
         </div>
       </section>
-      <VideoModal
+      <DemoModal
         toggleModal={toggleModal}
         handleToggleModal={handleToggleModal}
-        workVideo={workVideo}
+        workDemo={workDemo}
         dark={dark}
       />
     </>
