@@ -58,7 +58,7 @@ const DemoModal = ({ toggleModal, handleToggleModal, workDemo, dark }) => {
         toggleModal ? "" : "hidden"
       } overflow-y-auto overflow-x-hidden fixed top-0 right-0 bottom-0 left-0 z-30 flex justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full`}
     >
-      <div className="relative p-4 w-[76%]">
+      <div className="relative p-4 w-full md:w-[76%]">
         {/* <!-- Modal content --> */}
         <div className="relative  rounded-lg shadow dark:bg-gray-700">
           {/* <!-- Modal body --> */}
