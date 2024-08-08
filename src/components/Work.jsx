@@ -82,8 +82,8 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/assets/newsbay/newsbay thumbnail.png"
-              alt="newsbay thumbnail"
+              src="/assets/eduford/eduford thumbnail.png"
+              alt="eduford thumbnail"
             />
             <div className="p-5">
               <h5
@@ -91,19 +91,19 @@ const Work = ({ dark }) => {
                   dark ? "text-cyan-300" : "text-black"
                 } mb-2 text-2xl font-bold tracking-tight`}
               >
-                Newsbay
+                Eduford
               </h5>
               <p
                 className={`${
                   dark ? "text-white" : "text-black"
                 } mb-3 font-normal text-sm text-justify`}
               >
-                Newsbay is a News app which can fetch the top headlines news of
-                different category from News API. It is created by using
-                React.js and Tailwind CSS.
+                A Landing Page of the university created with the help of
+                React.js and Tailwind CSS. Also use Framer-Motion for the
+                animation
               </p>
               <a
-                href="https://github.com/safeer1748/Newsbay"
+                href="https://github.com/safeer1748/eduford-university-website"
                 target="_blank"
                 className={`${
                   dark
@@ -114,14 +114,14 @@ const Work = ({ dark }) => {
                 Github Code
               </a>
               <a
-                onClick={()=>handleToggleModal('newsbay')}
+              href="https://eduford-iota.vercel.app/" target="_blank"
                 className={`${
                   dark
                     ? "text-black bg-cyan-300 hover:bg-white"
                     : "text-white bg-black hover:bg-gray-600"
                 } cursor-pointer inline-flex ml-5 items-center px-3 py-2 text-sm font-medium text-center rounded-lg`}
               >
-                Image Demo
+                Live Demo
               </a>
             </div>
           </div>
@@ -164,14 +164,14 @@ const Work = ({ dark }) => {
                 Github Code
               </a>
               <a
-                onClick={()=>handleToggleModal('calculator')}
+               href="https://calculator-woad-xi-40.vercel.app/" target="_blank"
                 className={`${
                   dark
                     ? "text-black bg-cyan-300 hover:bg-white"
                     : "text-white bg-black hover:bg-gray-600"
                 } cursor-pointer inline-flex ml-5 items-center px-3 py-2 text-sm font-medium text-center rounded-lg`}
               >
-                Image Demo
+                Live Demo
               </a>
             </div>
           </div>
@@ -182,8 +182,8 @@ const Work = ({ dark }) => {
           >
             <img
               className={`rounded-t-lg object-cover shadow-lg`}
-              src="/assets/eduford/eduford thumbnail.png"
-              alt="eduford thumbnail"
+              src="/assets/newsbay/newsbay thumbnail.png"
+              alt="newsbay thumbnail"
             />
             <div className="p-5">
               <h5
@@ -191,19 +191,19 @@ const Work = ({ dark }) => {
                   dark ? "text-cyan-300" : "text-black"
                 } mb-2 text-2xl font-bold tracking-tight`}
               >
-                Eduford
+                Newsbay
               </h5>
               <p
                 className={`${
                   dark ? "text-white" : "text-black"
                 } mb-3 font-normal text-sm text-justify`}
               >
-                A Landing Page of the university created with the help of
-                React.js and Tailwind CSS. Also use Framer-Motion for the
-                animation
+                Newsbay is a News app which can fetch the top headlines news of
+                different category from News API. It is created by using
+                React.js and Tailwind CSS.
               </p>
               <a
-                href="https://github.com/safeer1748/eduford-university-website"
+                href="https://github.com/safeer1748/Newsbay"
                 target="_blank"
                 className={`${
                   dark
@@ -214,7 +214,7 @@ const Work = ({ dark }) => {
                 Github Code
               </a>
               <a
-                onClick={()=>handleToggleModal('eduford')}
+                onClick={()=>handleToggleModal('newsbay')}
                 className={`${
                   dark
                     ? "text-black bg-cyan-300 hover:bg-white"

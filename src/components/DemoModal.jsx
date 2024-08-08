@@ -10,9 +10,11 @@ const DemoModal = ({ toggleModal, handleToggleModal, workDemo, dark }) => {
     "/assets/legalEse/manageAppoinment page.png",
     "/assets/legalEse/manageCases page.png",
   ];
-  const newsbayImgs = ["/assets/newsbay/newsbay thumbnail.png"];
-  const calculatorImgs = ["/assets/calculator/calculator thumbnail.png"];
-  const edufordImgs = ["/assets/eduford/eduford thumbnail.png"];
+  const newsbayImgs = [
+    "/assets/newsbay/newsbay thumbnail.png",
+    "assets/newsbay/newsbay2.png",
+    "assets/newsbay/newsbay3.png",
+  ];
   const [activeWorkDemoImgs, setActiveWorkDemoImgs] = useState([]);
   const [next, setNext] = useState();
   const [activeImg, setActiveImg] = useState("");
@@ -24,14 +26,6 @@ const DemoModal = ({ toggleModal, handleToggleModal, workDemo, dark }) => {
     } else if (workDemo === "newsbay") {
       setActiveWorkDemoImgs(newsbayImgs);
       setActiveImg(newsbayImgs[0]);
-      setNext(1);
-    } else if (workDemo === "calculator") {
-      setActiveWorkDemoImgs(calculatorImgs);
-      setActiveImg(calculatorImgs[0]);
-      setNext(1);
-    } else if (workDemo === "eduford") {
-      setActiveWorkDemoImgs(edufordImgs);
-      setActiveImg(edufordImgs[0]);
       setNext(1);
     }
   }, [workDemo]);
@@ -68,16 +62,14 @@ const DemoModal = ({ toggleModal, handleToggleModal, workDemo, dark }) => {
             <div className="relative">
               {/* <!-- close model --> */}
               <button
-              onClick={()=>handleToggleModal()}
-               className="absolute top-1 end-1 text-white bg-black/60 hover:bg-black/80 rounded-full p-1 z-50">
-                  <IoMdClose size={15} />
-                </button>
+                onClick={() => handleToggleModal()}
+                className="absolute top-1 end-1 text-white bg-black/60 hover:bg-black/80 rounded-full p-1 z-50"
+              >
+                <IoMdClose size={15} />
+              </button>
               {/* <!-- Item --> */}
               <div className="relative duration-700 ease-in-out w-full bg-gray-600 h-auto ">
-                <img
-                  src={activeImg}
-                  alt=""
-                />
+                <img src={activeImg} alt="" />
               </div>
             </div>
 
