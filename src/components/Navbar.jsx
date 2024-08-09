@@ -5,9 +5,9 @@ const Navbar = ({ dark, handleDarkMode }) => {
     <nav
       className={`${
         dark ? "bg-gray-900" : "bg-white"
-      } fixed w-full z-20 top-0 start-0`}
+      } fixed w-full z-20 top-0  start-0`}
     >
-      <div className="flex flex-wrap items-center justify-between py-4 px-5 sm:px-24">
+      <div className="flex flex-wrap items-center justify-between py-3.5 px-5 sm:px-24">
         <a href="#">
           <span
             className={`${

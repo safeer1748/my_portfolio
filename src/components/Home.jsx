@@ -6,7 +6,7 @@ const Home = ({ dark }) => {
       id="#"
       className={`${
         dark ? "bg-gray-900" : "bg-white"
-      } w-full lg:h-screen pt-32 lg:py-0 gap-y-4 lg:gap-y-0 lg:gap-x-24 flex flex-col lg:flex-row justify-center items-center px-5 sm:px-24`}
+      } w-full md:h-screen pt-32 md:py-0 gap-y-4 md:gap-y-0 md:gap-x-20 lg:gap-x-24 flex flex-col md:flex-row justify-center items-center px-5 sm:px-24`}
     >
       <img
         className={`w-48 h-48 md:w-52 md:h-52 rounded-full object-cover border-8 ${
@@ -15,14 +15,14 @@ const Home = ({ dark }) => {
         src="/assets/mypic.jpg"
         alt="my pic"
       />
-      <div className="flex flex-col justify-center items-center gap-y-0.5 lg:gap-y-0 lg:items-start">
+      <div className="flex flex-col justify-center items-center gap-y-0.5 lg:gap-y-0 md:items-start">
         <h4
           className={`font-bold text-xl ${dark ? "text-white" : "text-black"}`}
         >
           Hello, I'm
         </h4>
         <h1
-          className={`font-bold text-3xl sm:text-4xl ${
+          className={`font-bold text-3xl lg:text-4xl ${
             dark ? "text-cyan-300" : "text-black"
           }`}
         >
@@ -43,11 +43,11 @@ const Home = ({ dark }) => {
           I'm a freshly graduated software engineer with expertise in frontend
           web development specializing in React.js, Tailwind CSS, and Bootstrap,
           along with a strong foundation in HTML, CSS, and JavaScript. I also
-          have experience in Photoshop and provide graphic designing services as
+          have experience in Photoshop and provide graphic design services as
           a freelancer on Fiverr. I am seeking a full-time job or internship to
           enhance my web development skills.
         </p>
-        <div className="flex items-center gap-x-4 pt-5">
+        <div className="flex items-center pt-5">
           <a href="\assets\My Resume.pdf" download="Resume">
           <button
             className={`rounded-full px-5 py-2 border font-semibold  text-center ${
@@ -58,17 +58,6 @@ const Home = ({ dark }) => {
           >
             Download CV
           </button>
-          </a>
-          <a href="#contact">
-            <button
-              className={`rounded-full px-5 py-2 border font-semibold  text-center ${
-                dark
-                  ? "border-white text-white hover:border-cyan-300 hover:bg-cyan-300 hover:text-black"
-                  : "border-gray-600 hover:border-black hover:bg-black hover:text-white"
-              }`}
-            >
-              Contact me
-            </button>
           </a>
         </div>
         <div

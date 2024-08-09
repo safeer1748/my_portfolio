@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { FaPhoneAlt, FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { IoLocationSharp } from "react-icons/io5";
 import { IoIosSend } from "react-icons/io";
+import {  MdOutlineMail  } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 const Contact = ({ dark }) => {
   const [name, setName] = useState("");
@@ -52,12 +50,12 @@ const Contact = ({ dark }) => {
       >
         Contact
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full justify-items-center gap-8">
+      <div className="flex w-full justify-center">
         <form
           onSubmit={handleSubmit}
           className={`relative ${
             dark ? "border-cyan-300" : "border-gray-400"
-          } border rounded-lg flex flex-col gap-y-5 max-w-sm w-full p-10`}
+          } border rounded-lg flex flex-col gap-y-5 max-w-md w-full p-10`}
         >
           <div className="flex flex-col gap-y-2">
             <label
@@ -128,6 +126,17 @@ const Contact = ({ dark }) => {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
+          <a href="mailto:safeerkhan1748@gmail.com">
+          <button
+          type="button"
+            title="safeerkhan1748@gmail.com"
+            className={`${
+              dark ? "text-black bg-cyan-300 hover:bg-white" : "text-white hover:bg-gray-800  bg-black"
+            } rounded-full absolute top-2 left-2 p-1`}
+          >
+            < MdOutlineMail size={20} />
+          </button>
+          </a>
           <button
             type="submit"
             title="send email"
@@ -135,56 +144,9 @@ const Contact = ({ dark }) => {
               dark ? "text-black bg-cyan-300 hover:bg-white" : "text-white hover:bg-gray-800  bg-black"
             } rounded-full absolute bottom-2 right-2 p-1`}
           >
-            <IoIosSend size={22} />
+            <IoIosSend size={20} />
           </button>
         </form>
-        <div className="flex flex-col max-w-sm w-full items-start justify-center gap-y-6">
-          <div className="flex gap-x-4 items-center justify-center">
-            <FaPhoneAlt
-              size={20}
-              className={`${dark ? "text-cyan-300" : "text-black"}`}
-            />
-            <h3 className={`${dark ? "text-white" : "text-gray-900"}`}>
-              +923180522996
-            </h3>
-          </div>
-          <div className="flex gap-x-4 items-center justify-center">
-            <MdEmail
-              size={20}
-              className={`${dark ? "text-cyan-300" : "text-black"}`}
-            />
-            <h3 className={`${dark ? "text-white" : "text-gray-900"}`}>
-              safeerkhan1748@gmail.com
-            </h3>
-          </div>
-          <div className="flex gap-x-4 items-center justify-center">
-            <IoLocationSharp
-              size={20}
-              className={`${dark ? "text-cyan-300" : "text-black"}`}
-            />
-            <h3 className={`${dark ? "text-white" : "text-gray-900"}`}>
-              CB-325 Darbar-e-kareemi Wah cantt, Pakistan
-            </h3>
-          </div>
-          <div className="flex gap-x-4 items-center justify-center">
-            <FaGithub
-              size={20}
-              className={`${dark ? "text-cyan-300" : "text-black"}`}
-            />
-            <h3 className={`${dark ? "text-white" : "text-gray-900"}`}>
-              https://github.com/safeer1748
-            </h3>
-          </div>
-          <div className="flex gap-x-4 items-center justify-center">
-            <FaLinkedin
-              size={20}
-              className={`${dark ? "text-cyan-300" : "text-black"}`}
-            />
-            <h3 className={`${dark ? "text-white" : "text-gray-900"}`}>
-              https://www.linkedin.com/in/safeer-muhammad-ba302427a/
-            </h3>
-          </div>
-        </div>
       </div>
     </section>
   );
