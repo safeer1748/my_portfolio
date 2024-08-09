@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IoIosSend } from "react-icons/io";
-import {  MdOutlineMail  } from "react-icons/md";
+import { MdOutlineMail } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 const Contact = ({ dark }) => {
   const [name, setName] = useState("");
@@ -126,22 +126,24 @@ const Contact = ({ dark }) => {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <a href="mailto:safeerkhan1748@gmail.com">
-          <button
-          type="button"
-            title="safeerkhan1748@gmail.com"
-            className={`${
-              dark ? "text-black bg-cyan-300 hover:bg-white" : "text-white hover:bg-gray-800  bg-black"
-            } rounded-full absolute top-2 left-2 p-1`}
-          >
-            < MdOutlineMail size={20} />
-          </button>
+          <a href="mailto:safeerkhan1748@gmail.com"
+              title="safeerkhan1748@gmail.com"
+              className={`${
+                dark
+                  ? "text-black bg-cyan-300 hover:bg-white"
+                  : "text-white hover:bg-gray-800  bg-black"
+              } rounded-full absolute top-2 left-2 p-1 hover:cursor-pointer`}
+            >
+              <MdOutlineMail size={20} />
+           
           </a>
           <button
             type="submit"
             title="send email"
             className={`${
-              dark ? "text-black bg-cyan-300 hover:bg-white" : "text-white hover:bg-gray-800  bg-black"
+              dark
+                ? "text-black bg-cyan-300 hover:bg-white"
+                : "text-white hover:bg-gray-800  bg-black"
             } rounded-full absolute bottom-2 right-2 p-1`}
           >
             <IoIosSend size={20} />
