@@ -23,7 +23,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Tailwind CSS</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -38,7 +38,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Bootstrap</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -53,7 +53,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Html</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -68,7 +68,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>CSS</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -83,7 +83,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Javascript</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -98,7 +98,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>API Integration</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -113,7 +113,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>C++</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -128,7 +128,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Firebase</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -143,7 +143,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Git</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -158,7 +158,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Figma</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>
@@ -173,7 +173,7 @@ const Skills = ({dark}) => {
               </div>
             </div>
         </div>
-        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-4  border ${dark?'border-cyan-300':'border-gray-400'}`}>
+        <div className={`max-w-sm bg-none rounded-lg flex items-center w-full justify-between p-3  border ${dark?'border-cyan-300':'border-gray-400'}`}>
             <h3 className={`${dark?'text-white':'text-gray-600'} font-medium text-md lg:text-lg`}>Photoshop</h3>
             <div className="flex items-center justify-center gap-x-3">
               <div className={`${dark?'bg-cyan-300':'bg-black'} rounded-full w-4 h-4`}>

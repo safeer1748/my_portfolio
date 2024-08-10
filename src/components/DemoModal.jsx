@@ -50,23 +50,24 @@ const DemoModal = ({ toggleModal, handleToggleModal, workDemo, dark }) => {
       aria-hidden="true"
       className={`${
         toggleModal ? "" : "hidden"
-      } overflow-y-auto overflow-x-hidden fixed top-0 right-0 bottom-0 left-0 z-30 flex justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full`}
+      } overflow-y-auto overflow-x-hidden fixed top-0 right-0 bottom-0 left-0 z-50 flex px-2 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full`}
     >
-      <div className="relative p-4 w-full md:w-[76%]">
+      
+      <div className="relative flex flex-col items-end w-full md:w-[76%]">
+        {/* <!-- close model --> */}
+      <button
+                onClick={() => handleToggleModal()}
+                className="text-black bg-white hover:bg-gray-400 p-2"
+              >
+                <IoMdClose size={18} />
+              </button>
         {/* <!-- Modal content --> */}
         <div className="relative  rounded-lg shadow dark:bg-gray-700">
           {/* <!-- Modal body --> */}
           <div id="gallery" className="relative w-full" data-carousel="slide">
             {/* <!-- Carousel wrapper --> */}
-
             <div className="relative">
-              {/* <!-- close model --> */}
-              <button
-                onClick={() => handleToggleModal()}
-                className="absolute top-1 end-1 text-white bg-black/60 hover:bg-black/80 rounded-full p-1 z-50"
-              >
-                <IoMdClose size={15} />
-              </button>
+             
               {/* <!-- Item --> */}
               <div className="relative duration-700 ease-in-out w-full bg-gray-600 h-auto ">
                 <img src={activeImg} alt="" />
@@ -78,7 +79,6 @@ const DemoModal = ({ toggleModal, handleToggleModal, workDemo, dark }) => {
               onClick={handlePrevActiveImg}
               type="button"
               className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-              data-carousel-prev
             >
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/60 hover:bg-black/80">
                 <svg
@@ -103,7 +103,6 @@ const DemoModal = ({ toggleModal, handleToggleModal, workDemo, dark }) => {
               onClick={handleNextActiveImg}
               type="button"
               className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-              data-carousel-next
             >
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/60 hover:bg-black/80">
                 <svg
